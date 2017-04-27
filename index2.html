@@ -17,7 +17,8 @@
                 <link rel="stylesheet" href="css/bootstrap.css">
 				<link rel="stylesheet" href="css/responsive.css">
                 <link rel="stylesheet" href="css/flexslider.css">
-				
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
                  <!-- favicon -->
 				<link rel="shortcut icon" href="images/favicon.png">
 				
@@ -36,7 +37,15 @@
                             <div class="row">
                                 <div class="span5 clearfix">
                                     <div class="lang pull-right">
-                                        <span>Select a language:<a href="#">English</a></span>
+                                        <span>Select a language:</span>
+                                            <div class="dropdown">
+                                            <button type="button" id="menu1" data-toggle="dropdown">English
+                                            <span class="caret"></span></button>
+                                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Spanish</a></li>
+                                            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">French</a></li>
+                                            </ul>
+                                            </div>
                                     </div>
                                 </div>
                                 <div class="span4 srch">
@@ -68,13 +77,13 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.html"><img src="images/logo.png" alt="Logo" height="72" width="72"></a>
+                                	<a href="main.html"><img src="images/logo.png" alt="Logo" height="72" width="72"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
                             
                             <!--top Menu -->
-                            <div class="span8">
+                            <!--<div class="span8">
                             	<div class="top-menu">
                                 	<ul>
                                 		<li><a href="#">About US</a></li>
@@ -85,7 +94,7 @@
                                 		<li><a href="#" class="last">Support</a></li>
                                 	</ul>
                                 </div>
-                            </div>
+                            </div>-->
                             <!--top Menu -->
                         
                         </div>
@@ -100,37 +109,41 @@
                             
                             	<nav>
                                     <ul>
-                                        <li><a href="index.html">Home </a>
-                                        	<ul class="clearfix">
-                                                <li><a href="index2.html">Home 2</a></li>
-                                                <li><a href="index3.html">Home 3 </a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="travel_grid.html">Travel</a>
-                                        	<ul class="clearfix">
-                                                <li><a href="travel_grid.html">Travel Grid</a></li>
-                                                <li><a href="travel_list.html">Travel list</a></li>
-                                                <li><a href="travel_detail.html">Travel Detail</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Holidays</a></li>
-                                        <li>
-                                            <a href="#">Flights</a>
+                                        <li><a href="main.html">Music </a>
                                             <ul class="clearfix">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
+                                                <li><a href="index2.html">Music Festival</a></li>
+                                                <li><a href="index3.html">Music Band</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Cars</a></li>
-                                        <li><a href="#">Vacations</a></li>
-                                        <li><a href="#">Guide Book</a></li>
-                                        <li><a href="#">Hot Deal</a></li>
+                                        <li><a href="travel_grid.html">Sports</a>
+                                          <ul class="clearfix">
+                                                <li><a href="travel_grid.html">Sports Grid</a></li>
+                                                <li><a href="travel_list.html">Sports List</a></li>
+                                                <li><a href="travel_detail.html">Ticket Information</a></li>
+                                            </ul>
+                                        </li>
+                                      <li><a href="#"> Arts & Theater</a>
+                                            <ul class="clearfix">
+                                                <li><a href="#">Museums </a></li>
+                                                <li><a href="#">Comedy </a></li>
+                                                <li><a href="#">Plays </a> </li>
+                                            </ul>
+
+                                      </li>
+                                        <li>
+                                            <a href="#">Family</a>
+                                          <ul class="clearfix">
+                                                <li><a href="#">Children's Music </a></li>
+                                                <li><a href="#">Circus </a></li>
+                                                <li><a href="#">Magic Shows </a> </li>
+                                            </ul>
+                                        </li>
+                                      <li><a href="#">VIP</a></li>
+                                      <li><a href="#">Deals</a></li>
+                                      
+                                      
                                         <li><a href="booking.html">Booking</a>
-                                        	<ul class="clearfix">
+                                          <ul class="clearfix">
                                                 <li><a href="confirm.html">Confirmation</a></li>
                                             </ul>
                                         </li>
@@ -168,25 +181,26 @@
                     </div>
                 </div>
                 <!-- Main Navigation -->
+                
                 <!-- Slider -->
 				<div class="flexslider">
-                	<ul class="slides">
+                    <ul class="slides">
                         <li>
-                          <img src="http://placehold.it/1600x510" alt="Slider Image">
+                          <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/warriors/images/20151128-Matchup-Andre-Cousins-760x442.jpg" alt="Slider Image">
                           <div class="detail-one">
-                            <h3>USA</h3>
-                            <h2>Chicago Night street</h2>
-                           	<span>$ 2.400</span>
-                          	<a href="#"></a> 	
+                            <h3>San Francisco Bay Area</h3>
+                            <h2>Warriors Game</h2>
+                            <span>$ 240</span>
+                            <a href="#"></a>    
                           </div>
                         </li>
                         <li>
-                          <img src="http://placehold.it/1600x510" alt="Slider Image">
+                          <img src="http://www.juventus.com/media/images/news-images/2016-17/grafiche/juvebarcelona.jpg" alt="Slider Image">
                           <div class="detail-one">
-                            <h3>Brazil</h3>
-                            <h2>Brazil Night City Beach</h2>
-                           	<span>$ 1.400</span>
-                          	<a href="#"></a> 	
+                            <h3>Turin</h3>
+                            <h2>UEFA Champions League</h2>
+                            <span>$ 1.200</span>
+                            <a href="#"></a>    
                           </div>
                         </li>
                     </ul>
@@ -194,69 +208,65 @@
                     
                 <!-- Reservation box -->
                 <div id="accordion">
-                  
-                  <h3> <span class="flight">Flights</span> <a href="#"></a> </h3>
-                  <div class="detail">
-                    <form action="#" method="post">
-                    <div class="trip">
-                    	
-                        	<input type="radio" name="trip" value="Round-trip"><span>Roud-Trip</span>
-                        	<input type="radio" name="trip" value="onw-way"><span>One-way</span>
-                        
-                    </div>
-                    
-                    <div class="location clearfix">
-                    	
-                        	<div class="pull-left">
-                        		<label>Your Locatıon</label>
-                        		<input type="text" name="location" value="England">
-                        	</div>
-                            <div class="pull-right">
-                            	<label class="dst">Destination</label>
-                            	<input type="text" name="Destination" value="Turkey">
-                            </div>
-                        
-                    </div>
-                    
-                    <div class="location clearfix">
-                    
-                        	<div class="pull-left">
-                        		<div class="date clearfix">
-                        			<div class="Depart-Date">
-                                    	<label>Depart Date</label>
-                        				<input type="text" name="Location" value="30.01.2013" id="datepicker">
-                                    </div>
-                                    <div>
-                                    	<label>Return Date</label>
-                        				<input type="text" name="Location" value="30.01.2013" id="clender">
-                                    </div>
-                        		</div>
-                        	</div>
-                            <div class="pull-right">
-                            	<div class="persons">
-                                	<div class="ad">
-                                    	<label>Adults</label>
-                        				<input type="text" name="Location" value="1" id="spinner">
-									</div>
-                                    <div class="ad">
-                                    	<label>Children</label>
-                        				<input type="text" name="Location" value="1" id="spinner-two">
-									</div>
-                                    <div>
-                                    	<label>Senior</label>
-                        				<input type="text" name="Location" value="1" id="spinner-three">
-									</div>
+
+                      <h3> <span class="flights">Tickets Search</span> <a href="#"></a> </h3>
+                      <div class="detail">
+                         <form action="#" method="post">
+                            <!--<div class="trip">
+                                <input type="radio" name="trip" value="Round-trip"><span>Roud-Trip</span>
+                                <input type="radio" name="trip" value="onw-way"><span>One-way</span>
+                            </div>-->
+
+                            <div class="location clearfix">
+                                <div class="pull-left">
+                                    <label>Your Locatıon</label>
+                                    <input type="input" name="Location" value="San Jose">
+                                </div>
+                                <div class="pull-right">
+                                    <label class="dst">Search Distance</label>
+                                    <input type="text" name="Destination" value="30 Miles">
                                 </div>
                             </div>
-                    </div>
-                    <div class="search">
-                    	<input type="submit" name="search" value="SEARCH" >
-                    </div>
 
-                    </form>
-                </div>
+                            <div class="location clearfix">
+
+                                <div class="pull-left">
+                                    <div class="date clearfix">
+                                        <div class="Depart-Date">
+                                            <label>Date</label>
+                                            <input type="text" name="Location" value="30.01.2013" id="datepicker">
+                                        </div>
+                                        <!--<div>
+                                            <label>Return Date</label>
+                                            <input type="text" name="Location" value="30.01.2013" id="clender">
+                                        </div>-->
+                                    </div>
+                                </div>
+                                <div class="pull-right">
+                                    <div class="persons">
+                                        <div class="ad">
+                                            <label>Adults</label>
+                                            <input type="text" name="Location" value="1" id="spinner">
+                                        </div>
+                                        <div class="ad">
+                                            <label>Children</label>
+                                            <input type="text" name="Location" value="1" id="spinner-two">
+                                        </div>
+                                        <div>
+                                            <label>Senior</label>
+                                            <input type="text" name="Location" value="1" id="spinner-three">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="search">
+                                <input type="submit" name="search" value="SEARCH" >
+                            </div>
+                        </form>
+                      </div>
                       
-               <h3> <span class="hotel">Hotel</span> <a href="#"></a></h3>
+               <!--<h3> <span class="hotel">Hotel</span> <a href="#"></a></h3>
                   <div class="detail">
                     <form action="#" method="post">
                     <div class="trip">
@@ -284,7 +294,7 @@
                         <input type="radio" name="trip" value="onw-way"><span>One-way</span>
                     </div>
                     </form>
-                  </div>
+                  </div>-->
                 </div>
                 <!-- Reservation box -->
 
@@ -292,34 +302,32 @@
                 <!-- Slider -->
                 <!-- Special Offer -->
                	<div class="specialoffer-wrapper">
-                	<div class="container">
-                    	<div class="row">
-                        <div class="span9">
+                    <div class="container">
                         
                         <!-- Heading -->
                         <div class="row">
-                        	<div class="span9">
-                            	<div class="heading hv-2">
-                                	<h2>special <span>offer</span></h2>
+                            <div class="span12">
+                                <div class="heading">
+                                    <h2>special <span>offer</span></h2>
                                 </div>
                             </div>
                         </div>
                         <!-- Heading -->
                          
-                        <div class="row offer-sec offer-sec-two">
+                        <div class="row offer-sec">
                         <ul class="elastislide-list clearfix" id="carousel">
 
                             <li class="span3">
-                            	<div class="offer">
-                                	<figure>
-                                		<img src="http://placehold.it/270x167"  alt="Offer Image">
-                                		<div class="overlay">
-                                			<a href="#" class="like"></a>
-                                		</div>
+                                <div class="offer">
+                                    <figure>
+                                        <img src="https://s-media-cache-ak0.pinimg.com/originals/97/17/ae/9717aebf56f432c4269e97d050c51727.png"  alt="Offer Image"  height="270" width="167">
+                                        <div class="overlay">
+                                            <a href="#" class="like"></a>
+                                        </div>
                                     </figure>
                                     <article>
-                                    	<h3>Blue beach</h3>
-                                        <h4>thailand</h4>
+                                        <h3>49er Games</h3>
+                                        <h4>San Francisco</h4>
                                         <p><a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
@@ -329,23 +337,23 @@
                                         <span>Read 8 Reviews</span>
                                     </article>
                                     <div class="price">
-                                    	<h3>138$</h3>
+                                        <h3>138$</h3>
                                         <a href="#"></a>
                                     </div>
                                 </div>
                             </li>
                             
                             <li class="span3">
-                            	<div class="offer">
-                                	<figure>
-                                		<img src="http://placehold.it/270x167"  alt="Offer Image">
-                                		<div class="overlay">
-                                			<a href="#" class="like"></a>
-                                		</div>
+                                <div class="offer">
+                                    <figure>
+                                        <img src="https://s-media-cache-ak0.pinimg.com/736x/a4/bd/ac/a4bdac852f5050a5f4b7c53034416e3d.jpg"  alt="Offer Image">
+                                        <div class="overlay">
+                                            <a href="#" class="like"></a>
+                                        </div>
                                     </figure>
                                     <article>
-                                    	<h3>Blue heaven</h3>
-                                        <h4>Greece</h4>
+                                        <h3>Sherlock Holmes</h3>
+                                        <h4>San Jose</h4>
                                         <p><a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
@@ -355,23 +363,23 @@
                                         <span>Read 8 Reviews</span>
                                     </article>
                                     <div class="price">
-                                    	<h3>138$</h3>
+                                        <h3>58$</h3>
                                         <a href="#"></a>
                                     </div>
                                 </div>
                             </li> 
                             
                              <li class="span3">
-                            	<div class="offer">
-                                	<figure>
-                                		<img src="http://placehold.it/270x167"  alt="Offer Image">
-                                		<div class="overlay">
-                                			<a href="#" class="like"></a>
-                                		</div>
+                                <div class="offer">
+                                    <figure>
+                                        <img src="https://fanart.tv/fanart/tv/71256/tvposter/the-daily-show-with-jon-stewart-52b864e5d0f76.jpg"  alt="Offer Image">
+                                        <div class="overlay">
+                                            <a href="#" class="like"></a>
+                                        </div>
                                     </figure>
                                     <article>
-                                    	<h3>Venice Canal</h3>
-                                        <h4>italy</h4>
+                                        <h3>Daily Show</h3>
+                                        <h4>New York</h4>
                                         <p><a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
@@ -381,66 +389,66 @@
                                         <span>Read 8 Reviews</span>
                                     </article>
                                     <div class="price">
-                                    	<h3>138$</h3>
+                                        <h3>188$</h3>
                                         <a href="#"></a>
                                     </div>
                                 </div>
                             </li>
                             
                              <li class="span3">
-                            	<div class="offer">
-                                	<figure>
-                                		<img src="http://placehold.it/270x167"  alt="Offer Image">
-                                		<div class="overlay">
-                                        	<a href="#" class="like"></a>
+                                <div class="offer">
+                                    <figure>
+                                        <img src="http://www.vettix.org/images/events/preview37702_1469581613.jpg"  alt="Offer Image">
+                                        <div class="overlay">
+                                            <a href="#" class="like"></a>
                                         </div>
                                     </figure>
                                     <article>
-                                    	<h3>Monte Rosa</h3>
-                                        <h4>italy</h4>
+                                        <h3>International Champion Cup</h3>
+                                        <h4>Santa Clara</h4>
                                         <p><a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
-                                            <a href="#"></a>
-                                            <a href="#"></a>
+                                            <a href="#" class="active"></a>
+                                            <a href="#" class="active"></a>
                                         </p>
-                                        <span>Read 8 Reviews</span>
+                                        <span>Read 28 Reviews</span>
                                     </article>
                                     <div class="price">
-                                    	<h3>138$</h3>
+                                        <h3>338$</h3>
                                         <a href="#"></a>
                                     </div>
                                 </div>
                             </li>
                             <li class="span3">
-                            	<div class="offer">
-                                	<figure>
-                                		<img src="http://placehold.it/270x167"  alt="Offer Image">
-                                		<div class="overlay">
-                                        	<a href="#" class="like"></a>
+                                <div class="offer">
+                                    <figure>
+                                        <img src="http://assets.internationalchampionscup.com/uploads/photo/file/735/large_AP_17114534111708-1493046504.jpg"  alt="Offer Image">
+                                        <div class="overlay">
+                                            <a href="#" class="like"></a>
                                         </div>
                                     </figure>
                                     <article>
-                                    	<h3>Monte Rosa</h3>
-                                        <h4>italy</h4>
+                                        <h3>Messi</h3>
+                                        <h4>Barcelona</h4>
                                         <p><a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
                                             <a href="#" class="active"></a>
-                                            <a href="#"></a>
-                                            <a href="#"></a>
+                                            <a href="#" class="active"></a>
+                                            <a href="#" class="active"></a>
                                         </p>
-                                        <span>Read 8 Reviews</span>
+                                        <span>Read 38 Reviews</span>
                                     </article>
                                     <div class="price">
-                                    	<h3>138$</h3>
+                                        <h3>438$</h3>
                                         <a href="#"></a>
                                     </div>
                                 </div>
                             </li> 
                             
                         </ul>
-                        <div class="crousal-btn c-two">
-                        	<a href="#" class="prev"></a>
+                        <div class="crousal-btn">
+                            <a href="#" class="prev"></a>
                             <a href="#" class="next"></a>
                         </div>
 
@@ -455,7 +463,8 @@
                     	<!--video Section -->
                         <div class="span6">
                         	<div class="video">
-                            	<iframe src="//player.vimeo.com/video/36519586?color=ff9933" width="100%" height="345px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            	<!--<iframe src="//player.vimeo.com/video/36519586?color=ff9933" width="100%" height="345px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/B7K8JjjaagU" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>
                         <!--video Section -->
@@ -464,16 +473,16 @@
                         <div class="span3">
                         	<div class="hotdeal">
                             	<div class="deal-header">
-                                	<h3>hot deals</h3>
+                                	<h3>Hot Deals</h3>
                                 </div>
                                 
                                 	<div id="vcarousel">
                                 		<ul>
                                 			<li>
-                                		    	<figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
+                                		    	<figure class="pull-left"><img src="images/hotdeal-pic.jpg" alt="Pic"></figure>
                                 		        <article class=" clearfix">
                                 		        	<div class="hot pull-left">
-                                		            	<p>Kavin hotel</p>
+                                		            	<p>Warriors Game</p>
                                 		                <p class="star">
                                 		                    <a href="#" class="active"></a>
                                 		                    <a href="#" class="active"></a>
@@ -489,10 +498,10 @@
                                 		        </article>
                                 		    </li>
                                 		    <li>
-                                		    	<figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
+                                		    	<figure class="pull-left"><img src="images/hotdeal-pic.jpg" alt="Pic"></figure>
                                 		        <article class=" clearfix">
                                 		        	<div class="hot pull-left">
-                                		            	<p>Emma hotel</p>
+                                		            	<p>Warriors Game</p>
                                 		                <p class="star">
                                 		                    <a href="#" class="active"></a>
                                 		                    <a href="#" class="active"></a>
@@ -508,10 +517,10 @@
                                 		        </article>
                                 		    </li>
                                 		    <li>
-                                		    	<figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
+                                		    	<figure class="pull-left"><img src="images/hotdeal-pic.jpg" alt="Pic"></figure>
                                 		        <article class=" clearfix">
                                 		        	<div class="hot pull-left">
-                                		            	<p>badda hotel</p>
+                                		            	<p>Warriors Game</p>
                                 		                <p class="star">
                                 		                    <a href="#" class="active"></a>
                                 		                    <a href="#" class="active"></a>
@@ -527,10 +536,10 @@
                                 		        </article>
                                 		    </li>
                                 		    <li>
-                                		    	<figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
+                                		    	<figure class="pull-left"><img src="images/hotdeal-pic.jpg" alt="Pic"></figure>
                                 		        <article class=" clearfix">
                                 		        	<div class="hot pull-left">
-                                		            	<p>rex hotel</p>
+                                		            	<p>Warriors Game</p>
                                 		                <p class="star">
                                 		                    <a href="#" class="active"></a>
                                 		                    <a href="#" class="active"></a>
@@ -566,6 +575,8 @@
                         	<a href="#" class="sunday">Sunday</a>
                             
                         	<a href="#" class="monday">Monday</a>
+
+                            <a href="#" class="monday">Tuesday</a>
                         </div>                        	
                             <div id="rightnow_module">
 								<div id="weather"></div>
@@ -586,12 +597,12 @@
                     	<div class="row">
                         	<div class="span12">
                             	<div class="tweet">
-                                	<p>The support area has moved. If you need theme support, you want to go to the shiny new one located here <a href="#">http://t.co/RW1A5S1p7v 33 days ago</a></p>
+                                	<p>The support area has moved. If you need theme support, you want to go to the shiny new one located here <a href="https://twitter.com/warriors">http://t.co/RW1A5S1p7v 33 days ago</a></p>
                                 	<p>The support area has moved. If you need theme support, you want to go to the shiny new one located here <a href="#">http://t.co/RW1A5S1p7v 33 days ago</a></p>
                                 </div>
                                 <a href="" class="tweet-l"></a>
                                 <a href="" class="tweet-r"></a>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -604,35 +615,35 @@
                     	<div class="row">
                         	
                             <div class="span3 f-widget copy-right">
-                            	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
-                            	<p>© 2013 <a href="#">N-Travel</a>. All rights reserved</p>
-                            	<p>Designed by Kavin</p>
+                            	<a href="#" class="f-logo"><img src="images/logo.png" alt="Logo" height="72" width="72"></a>
+                                <p>© 2017 <a href="#">Ticket Exchange Inc.</a>. All rights reserved</p>
+                                <p>Designed by Chris</p>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Company Infomation</h4>
                                 <ul>
                                 	<li><a href="#">About US</a></li>
-                                	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
-                                	<li><a href="#">Payment Option</a></li>
-                                	<li class="last"><a href="#">Infomation</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Booking Tips</a></li>
+                                    <li><a href="#">Payment Option</a></li>
+                                    <li class="last"><a href="#">Our Network</a></li>
                                 </ul>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Customer Care</h4>
                                 <ul>
-                                	<li><a href="#">About US</a></li>
-                                	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
-                                	<li><a href="#">Payment Option</a></li>
-                                	<li class="last"><a href="#">Infomation</a></li>
+                                    <li><a href="#">We're Here to Help</a></li>
+                                    <li><a href="#">Your Account</a></li>
+                                    <li><a href="#">Transfer or Sell Tickets</a></li>
+                                    <li><a href="#">Print Tickets</a></li>
+                                    <li class="last"><a href="#">FAQs</a></li>
                                 </ul>
                             </div>
                             <div class="span3 f-widget">
                             	<div class="cc">
                             		<h4>Customer Support</h4>
-                            		<h2>1-669-559-4378</h2>
-                            		<span class="pull-right">Support 24/24</span>
+                                    <h2>1-888-559-4378</h2>
+                                    <span class="pull-right">Support 24/24</span>
                             	</div>
                             	<div class="f-widget n-letter">
                                 	<h4>Newsletter</h4>
@@ -658,12 +669,11 @@
                             	<footer>
                                 	<div class="footer-nav">
                                     	<ul>
-                                    		<li><a href="#">About US</a></li>
-                                    		<li><a href="#">News</a></li>
-                                    		<li><a href="#">Serbice</a></li>
-                                    		<li><a href="#">Recruiment </a></li>
-                                    		<li><a href="#">Media</a></li>
-                                    		<li>More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></li>
+                                    		<li><a href="#">About US </a></li>
+                                            <li><a href="#">Insider </a></li>
+                                            <li><a href="#">Privacy Policy </a></li>
+                                            <li><a href="#">Career </a></li>
+                                            <li><a href="#">Media</a></li>
                                     	</ul>
                                     </div>
                                     <a href="javascript:void(0)" onClick="goToByScroll('top')" class="gotop"></a>
@@ -679,7 +689,7 @@
                     <div id="login-popup">
                     	<h2>login Panel</h2>
                         <form method="get" action="#">
-                            <input type="text" value="" id="username" placeholder="kavinhieu@gmail.com" />
+                            <input type="text" value="" id="username" placeholder="TommyXu@gmail.com" />
                             <input type="text" value="" id="password" placeholder="Password" />
                             
                             <input type="submit" value="sıgn ın" id="login-button"/>
