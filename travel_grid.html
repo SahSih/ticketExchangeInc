@@ -10,7 +10,7 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>N-Travel</title>
+				<title>Online Ticket Exchange</title>
 				
 				<!-- Style Sheet-->
 				<link rel="stylesheet" href="css/style.css">
@@ -36,7 +36,15 @@
                             <div class="row">
                                 <div class="span5 clearfix">
                                     <div class="lang pull-right">
-                                        <span>Select a language:<a href="#">English</a></span>
+                                        <span>Select a language:</span>
+                                        <span class="dropdown">
+                                        <button type="button" id="menu1" data-toggle="dropdown">English
+                                        <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Spanish</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">French</a></li>
+                                        </ul>
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="span4 srch">
@@ -69,13 +77,13 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="main.html"><img src="images/logo.png" alt="Logo"></a>
+                                	<a href="main.html"><img src="images/logo.png" alt="Logo" eight="72" width="72"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
                             
                             <!--top Menu -->
-                            <div class="span8">
+                            <!--<div class="span8">
                             	<div class="top-menu">
                                 	<ul>
                                 		<li><a href="#">About US</a></li>
@@ -86,7 +94,7 @@
                                 		<li><a href="#" class="last">Support</a></li>
                                 	</ul>
                                 </div>
-                            </div>
+                            </div>-->
                             <!--top Menu -->
                         
                         </div>
@@ -102,38 +110,41 @@
                             
                             	<nav>
                                     <ul>
-                                        <li><a href="main.html">Home </a>
-                                        	<ul class="clearfix">
-                                                <li><a href="index2.html">Home 2</a></li>
-                                                <li><a href="index3.html">Home 3 </a></li>
-                                            </ul>
-                                        </li>
-                                        
-                                        <li><a href="travel_grid.html">Travel</a>
-                                        	<ul class="clearfix">
-                                                <li><a href="travel_grid.html">Travel Grid</a></li>
-                                                <li><a href="travel_list.html">Travel list</a></li>
-                                                <li><a href="travel_detail.html">Travel Detail</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Holidays</a></li>
-                                        <li>
-                                            <a href="#">Flights</a>
+                                        <li><a href="main.html">Music </a>
                                             <ul class="clearfix">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
+                                                <li><a href="index2.html">Music Festival</a></li>
+                                                <li><a href="index2.html">Music Band</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Cars</a></li>
-                                        <li><a href="#">Vacations</a></li>
-                                        <li><a href="#">Guide Book</a></li>
-                                        <li><a href="#">Hot Deal</a></li>
+                                        <li><a href="travel_grid.html">Sports</a>
+                                          <ul class="clearfix">
+                                                <li><a href="travel_grid.html">Sports Grid</a></li>
+                                                <li><a href="travel_list.html">Sports List</a></li>
+                                                <li><a href="travel_detail.html">Ticket Information</a></li>
+                                            </ul>
+                                        </li>
+                                      <li><a href="#"> Arts & Theater</a>
+                                            <ul class="clearfix">
+                                                <li><a href="#">Museums </a></li>
+                                                <li><a href="#">Comedy </a></li>
+                                                <li><a href="#">Plays </a> </li>
+                                            </ul>
+
+                                      </li>
+                                        <li>
+                                            <a href="#">Family</a>
+                                          <ul class="clearfix">
+                                                <li><a href="#">Children's Music </a></li>
+                                                <li><a href="#">Circus </a></li>
+                                                <li><a href="#">Magic Shows </a> </li>
+                                            </ul>
+                                        </li>
+                                      <li><a href="#">VIP</a></li>
+                                      <li><a href="#">Deals</a></li>
+                                      
+                                      
                                         <li><a href="booking.html">Booking</a>
-                                        	<ul class="clearfix">
+                                          <ul class="clearfix">
                                                 <li><a href="confirm.html">Confirmation</a></li>
                                             </ul>
                                         </li>
@@ -147,21 +158,15 @@
                                             <a href="#">HOME</a>
                                             <ul>
                                                 <li><a href="#">Home </a></li>
-                                                <li><a href="#">Hotels</a></li>
-                                                <li><a href="#">Holidays</a></li>
-                                                <li><a href="#">Flights</a> </li>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
-                                                <li><a href="#">Cars</a></li>
-                                                <li><a href="#">Vacations</a></li>
-                                                <li><a href="#">Guide Book</a></li>
-                                                <li><a href="#">Hot Deal</a></li>
-                                                <li><a href="#">Cruise</a></li>
-                                                <li class="last"><a href="#">Promotion</a></li>
+                                                <li><a href="#">Music</a></li>
+                                                <li><a href="#">Sports</a></li>
+                                                <li><a href="#">Arts & Theater</a> </li>
+                                                <li><a href="#">Family</a></li>
+                                                <li><a href="#">VIP </a></li>
+                                                <li><a href="#">Deals </a> </li>
+                                                <li><a href="#">Booking </a> </li>
+                                                <li><a href="#">Contact </a> </li>
+                                                <li class="last"><a href="#">AboutUs</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -200,16 +205,16 @@
                                             <div class="viewport">
                                                 <div class="overview">
                                                     <ul>
-                                                        <li><a href="#">Camera</a> <span>(9)</span></li>
-                                                        <li><a href="#">Notebook </a> <span>(16)</span></li>
-                                                        <li><a href="#">Tablet </a> </li>
-                                                        <li><a href="#">Television </a> </li>
-                                                        <li><a href="#">Smart Phone </a> </li>
-                                                        <li><a href="#">Projection </a> </li>
-                                                        <li><a href="#">Tablet </a> </li>
-                                                        <li><a href="#">Television </a> </li>
-                                                        <li><a href="#">Smart Phone </a> </li>
-                                                        <li><a href="#">Projection </a> </li>
+                                                        <li><a href="#">All Sports </a> <span>(55)</span></li>
+                                                        <li><a href="#">Basketball </a> <span>(9)</span></li>
+                                                        <li><a href="#">Football </a> <span>(16)</span></li>
+                                                        <li><a href="#">Baseball </a> <span>(5)</span></li>
+                                                        <li><a href="#">Soccer </a> <span>(12)</span></li>
+                                                        <li><a href="#">Boxing </a> <span>(9)</span></li>
+                                                        <li><a href="#">Golf </a> <span>(5)</span></li>
+                                                        <li><a href="#">Hockey </a> <span>(6)</span></li>
+                                                        <li><a href="#">Handball </a> <span>(7)</span></li>
+                                                        <li><a href="#">Tennis </a> <span>(10)</span></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -239,46 +244,46 @@
                                         </div>
                                     </div>
 
-                                    <h3> Hotel facilities <a href="#"></a></h3>
+                                    <h3> Leagues <a href="#"></a></h3>
                                     <div class="widget facilitie_widget">
                                         <div class="scrollbar1">
                                             <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
                                             <div class="viewport">
                                                 <div class="overview">
                                                     <ul>
-                                                        <li><a href="#">Camera</a> <span>(9)</span></li>
-                                                        <li class="tick"><a href="#">Notebook </a> <span>(16)</span></li>
-                                                        <li><a href="#">Tablet </a> </li>
-                                                        <li><a href="#">Television </a> </li>
-                                                        <li><a href="#">Smart Phone </a> </li>
-                                                        <li><a href="#">Projection </a> </li>
-                                                        <li><a href="#">Tablet </a> </li>
-                                                        <li><a href="#">Television </a> </li>
-                                                        <li><a href="#">Smart Phone </a> </li>
-                                                        <li><a href="#">Projection </a> </li>
+                                                        <li><a href="#">NFL </a> <span>(9)</span></li>
+                                                        <li class="tick"><a href="#">NBA </a> <span>(16)</span></li>
+                                                        <li><a href="#">NHL </a> </li>
+                                                        <li><a href="#">Golf </a> </li>
+                                                        <li><a href="#">MLB </a> </li>
+                                                        <li><a href="#">MLS </a> </li>
+                                                        <li><a href="#">WNBA </a> </li>
+                                                        <li><a href="#">NASCAR </a> </li>
+                                                        <li><a href="#">NCAA Basketball </a> </li>
+                                                        <li><a href="#">College Bowls </a> </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <h3> Room facilities <a href="#"></a></h3>
+                                    <h3> Popular Events <a href="#"></a></h3>
                                     <div class="widget facilitie_widget">
                                         <div class="scrollbar1">
                                             <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
                                             <div class="viewport">
                                                 <div class="overview">
                                                     <ul>
-                                                        <li><a href="#">Camera</a> <span>(9)</span></li>
-                                                        <li class="tick"><a href="#">Notebook </a> <span>(16)</span></li>
-                                                        <li><a href="#">Tablet </a> </li>
-                                                        <li><a href="#">Television </a> </li>
-                                                        <li><a href="#">Smart Phone </a> </li>
-                                                        <li><a href="#">Projection </a> </li>
-                                                        <li><a href="#">Tablet </a> </li>
-                                                        <li><a href="#">Television </a> </li>
-                                                        <li><a href="#">Smart Phone </a> </li>
-                                                        <li><a href="#">Projection </a> </li>
+                                                        <li><a href="#">Golden State Warriors </a> <span>(9)</span></li>
+                                                        <li class="tick"><a href="#">Sacramento River Cats </a> <span>(16)</span></li>
+                                                        <li><a href="#">San Jose Barracuda </a> </li>
+                                                        <li><a href="#">Monster Jam </a> </li>
+                                                        <li><a href="#">San Jose Earthquakes </a> </li>
+                                                        <li><a href="#">International Champions Cup North America </a> </li>
+                                                        <li><a href="#">Monster Energy NASCAR Cup Series </a> </li>
+                                                        <li><a href="#">CONCACAF Gold Cup </a> </li>
+                                                        <li><a href="#"> </a>San Francisco 49ers </li>
+                                                        <li><a href="#"> </a>International Champion Cup </li>
                                                     </ul>
                                                 </div>
                                             </div>
