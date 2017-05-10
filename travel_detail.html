@@ -10,7 +10,7 @@
 				<meta name="viewport" content="width=device-width" />
 				
 				<!-- Title -->
-				<title>N-Travel</title>
+				<title>Online Ticket Exchange</title>
 				
 				<!-- Style Sheet-->
 				<link rel="stylesheet" href="css/style.css">
@@ -36,7 +36,15 @@
                             <div class="row">
                                 <div class="span5 clearfix">
                                     <div class="lang pull-right">
-                                        <span>Select a language:<a href="#">English</a></span>
+                                        <span>Select a language:<a href="#">English</a>
+                                        <span class="dropdown">
+                                        <button type="button" id="menu1" data-toggle="dropdown">English
+                                        <span class="caret"></span></button>
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Spanish</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">French</a></li>
+                                        </ul>
+                                        </span>
                                     </div>
                                 </div>
                                 <div class="span4 srch">
@@ -69,13 +77,13 @@
                         	<!-- Logo -->
                             <div class="span4">
                             	<div class="logo">
-                                	<a href="index.html"><img src="images/logo.png" alt="Logo"></a>
+                                	<a href="main.html"><img src="images/logo.png" alt="Logo" alt="Logo" eight="72" width="72"></a>
                                 </div>
                             </div>
                         	<!-- Logo -->
                             
                             <!--top Menu -->
-                            <div class="span8">
+                            <!--<div class="span8">
                             	<div class="top-menu">
                                 	<ul>
                                 		<li><a href="#">About US</a></li>
@@ -86,7 +94,7 @@
                                 		<li><a href="#" class="last">Support</a></li>
                                 	</ul>
                                 </div>
-                            </div>
+                            </div>-->
                             <!--top Menu -->
                         
                         </div>
@@ -102,38 +110,41 @@
                             
                             	<nav>
                                     <ul>
-                                        <li><a href="index.html">Home </a>
-                                        	<ul class="clearfix">
-                                                <li><a href="index2.html">Home 2</a></li>
-                                                <li><a href="index3.html">Home 3 </a></li>
-                                            </ul>
-                                        </li>
-                                        
-                                        <li><a href="travel_grid.html">Travel</a>
-                                        	<ul class="clearfix">
-                                                <li><a href="travel_grid.html">Travel Grid</a></li>
-                                                <li><a href="travel_list.html">Travel list</a></li>
-                                                <li><a href="travel_detail.html">Travel Detail</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Holidays</a></li>
-                                        <li>
-                                            <a href="#">Flights</a>
+                                        <li><a href="main.html">Music </a>
                                             <ul class="clearfix">
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
+                                                <li><a href="index2.html">Music Festival</a></li>
+                                                <li><a href="index2.html">Music Band</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="#">Cars</a></li>
-                                        <li><a href="#">Vacations</a></li>
-                                        <li><a href="#">Guide Book</a></li>
-                                        <li><a href="#">Hot Deal</a></li>
+                                        <li><a href="travel_grid.html">Sports</a>
+                                          <ul class="clearfix">
+                                                <li><a href="travel_grid.html">Sports Grid</a></li>
+                                                <li><a href="travel_list.html">Sports List</a></li>
+                                                <li><a href="travel_detail.html">Ticket Information</a></li>
+                                            </ul>
+                                        </li>
+                                      <li><a href="#"> Arts & Theater</a>
+                                            <ul class="clearfix">
+                                                <li><a href="#">Museums </a></li>
+                                                <li><a href="#">Comedy </a></li>
+                                                <li><a href="#">Plays </a> </li>
+                                            </ul>
+
+                                      </li>
+                                        <li>
+                                            <a href="#">Family</a>
+                                          <ul class="clearfix">
+                                                <li><a href="#">Children's Music </a></li>
+                                                <li><a href="#">Circus </a></li>
+                                                <li><a href="#">Magic Shows </a> </li>
+                                            </ul>
+                                        </li>
+                                      <li><a href="#">VIP</a></li>
+                                      <li><a href="#">Deals</a></li>
+                                      
+                                      
                                         <li><a href="booking.html">Booking</a>
-                                        	<ul class="clearfix">
+                                          <ul class="clearfix">
                                                 <li><a href="confirm.html">Confirmation</a></li>
                                             </ul>
                                         </li>
@@ -146,22 +157,16 @@
                                         <li class="open">
                                             <a href="#">HOME</a>
                                             <ul>
-                                                <li><a href="#">Home </a></li>
-                                                <li><a href="#">Hotels</a></li>
-                                                <li><a href="#">Holidays</a></li>
-                                                <li><a href="#">Flights</a> </li>
-                                                <li><a href="#">Camera</a></li>
-                                                <li><a href="#">Notebook </a></li>
-                                                <li><a href="#">Tablet </a> </li>
-                                                <li><a href="#">Television </a> </li>
-                                                <li><a href="#">Smart Phone </a> </li>
-                                                <li><a href="#">Projection </a> </li>
-                                                <li><a href="#">Cars</a></li>
-                                                <li><a href="#">Vacations</a></li>
-                                                <li><a href="#">Guide Book</a></li>
-                                                <li><a href="#">Hot Deal</a></li>
-                                                <li><a href="#">Cruise</a></li>
-                                                <li class="last"><a href="#">Promotion</a></li>
+                                                 <li><a href="#">Home </a></li>
+                                                <li><a href="#">Music</a></li>
+                                                <li><a href="#">Sports</a></li>
+                                                <li><a href="#">Arts & Theater</a> </li>
+                                                <li><a href="#">Family</a></li>
+                                                <li><a href="#">VIP </a></li>
+                                                <li><a href="#">Deals </a> </li>
+                                                <li><a href="#">Booking </a> </li>
+                                                <li><a href="#">Contact </a> </li>
+                                                <li class="last"><a href="#">AboutUs</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -195,61 +200,51 @@
                                     <form action="#" method="post" class="clearfixc">
 
                                         <div class="check_detail">
-                                            <h4>Kavin hotel</h4>
-                                            <h5>Greece</h5>
-                                            <div class="stars">
+                                            <h4>Warriors</h4>
+                                            <h5>Oracle </h5>
+                                            <span>
+                                                <div class="stars">
                                                 <a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
                                                 <a href="#" class="active"></a>
-                                                <a href="#"></a>
-                                                <a href="#"></a>
+                                                <a href="#" class="active"></a>
+                                                <a href="#" class="active"></a>
                                             </div>
+                                            </span>
+                                            
                                         </div>
 
                                         <div class="location clearfix">
                                             <div class="pull-left clearfix">
                                                 <div class="date clearfix">
                                                     <div class="Depart-Date">
-                                                        <label>Check in</label>
-                                                        <input type="text" name="Location" value="30.01.2013" id="datepicker">
-                                                    </div>
-                                                    <div>
-                                                        <label>Check Out</label>
-                                                        <input type="text" name="Location" value="30.01.2013" id="clender">
-                                                    </div>
+                                                        <label>Date</label>
+                                                        <h6>5/20/2017</h6>
+                                                    </div>                        
                                                 </div>
                                             </div>
                                             <div class="clearfix"></div>
                                             <div class="check_detail clearfix" >
-                                                <p class="first">Singel Room <span>138$</span></p>
-                                                <p class="two">Double Room <span>250$</span></p>
+                                                <p class="first">Price <span>220$</span></p>
                                             </div>
 
                                             <div class="pull-right">
                                                 <div class="persons clearfix">
                                                     <div class="ad">
-                                                        <label>Adults</label>
+                                                        <label>Amount</label>
                                                         <input type="text" name="Location" value="1" id="spinner">
-                                                    </div>
-                                                    <div class="ad">
-                                                        <label>Children</label>
-                                                        <input type="text" name="Location" value="1" id="spinner-two">
-                                                    </div>
-                                                    <div>
-                                                        <label>Senior</label>
-                                                        <input type="text" name="Location" value="1" id="spinner-three">
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <p class="clearfix">Total Booking <span>138$</span></p>
+                                        <p class="clearfix">Total Price <span>220$</span></p>
                                         <div class="search">
                                             <input type="submit" name="search" value="BOOK NOW" >
                                         </div>
                                     </form>
                                 </div>
                                 <div id="widget_accordion">
-                                    <h3> Select category <a href="#"></a></h3>
+                                    <h3> Select Category <a href="#"></a></h3>
                                     <div class="widget">
                                         <div class="scrollbar1">
                                             <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
@@ -259,7 +254,7 @@
                                                         <figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
                                                         <article class="  pull-left clearfix">
                                                             <div class="hot">
-                                                                <p>Kavin hotel</p>
+                                                                <p>Warriors</p>
                                                                 <p class="stars">
                                                                     <a href="#" class="blue_star"></a>
                                                                     <a href="#" class="blue_star"></a>
@@ -274,7 +269,7 @@
                                                         <figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
                                                         <article class="  pull-left clearfix">
                                                             <div class="hot">
-                                                                <p>Kavin hotel</p>
+                                                                <p>Warriors</p>
                                                                 <p class="stars">
                                                                     <a href="#" class="blue_star"></a>
                                                                     <a href="#" class="blue_star"></a>
@@ -289,7 +284,7 @@
                                                         <figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
                                                         <article class="  pull-left clearfix">
                                                             <div class="hot">
-                                                                <p>Kavin hotel</p>
+                                                                <p>Warriors</p>
                                                                 <p class="stars">
                                                                     <a href="#" class="blue_star"></a>
                                                                     <a href="#" class="blue_star"></a>
@@ -304,7 +299,7 @@
                                                         <figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
                                                         <article class="  pull-left clearfix">
                                                             <div class="hot">
-                                                                <p>Kavin hotel</p>
+                                                                <p>Warriors</p>
                                                                 <p class="stars">
                                                                     <a href="#" class="blue_star"></a>
                                                                     <a href="#" class="blue_star"></a>
@@ -319,7 +314,7 @@
                                                         <figure class="pull-left"><img src="images/hotdeal-pic.png" alt="Pic"></figure>
                                                         <article class="  pull-left clearfix">
                                                             <div class="hot">
-                                                                <p>Kavin hotel</p>
+                                                                <p>Warriors</p>
                                                                 <p class="stars">
                                                                     <a href="#" class="blue_star"></a>
                                                                     <a href="#" class="blue_star"></a>
@@ -335,10 +330,9 @@
                                         </div>
                                     </div>
 
-                                    <h3> need help booking <a href="#"></a></h3>
-                                    <div class="widget">
-                                        <p>Pri ut minim fierent voluptatum, ea pro erat postea option</p>
-                                        <p class="call">1-669-559-4378</p>
+                                    <h3>Contact Us<a href="#"></a></h3>
+                                    <div class="widget">                                        
+                                        <p class="call">1-888-559-4378</p>
                                     </div>
 
                                 </div>
@@ -383,86 +377,38 @@
                                 <div id="tabs_two">
                                     <ul class="clearfix">
                                         <li><a href="#tabs-1" class="one">Summary</a></li>
-                                        <li><a href="#tabs-2" class="two">Preferences</a></li>
                                         <li><a href="#tabs-3" class="three">location</a></li>
                                         <li><a href="#tabs-4" class="four">Reviews</a></li>
                                     </ul>
                                     <div id="tabs-1" class="tab clearfix" >
                                         <div class="detail clearfix">
-                                            <p>Lorem ipsum venenatis donec sociosqu porta tempor, aptent augue leo dictum nam, senectus dapibus potenti metus velit litora sollicitudin pulvinar pharetra taciti aenean nunc aenean, feugiat scelerisque leo duis netus consequat, lobortis malesuada eleifend ad lacus quisque ut curabitur bibendum laoreet erat nisi malesuada, dictumst arcu platea consequat rutrum purus malesuada, nibh etiam eleifend quis lectus lacinia semper suscipit potenti tellus orci class vivamus nibh taciti, vestibulum justo tristique volutpat praesent scelerisque phasellus eleifend, taciti est taciti consequat donec et class lobortis.</p>
-                                            <p>Feugiat consequat augue pulvinar fusce quis dui diam leo dictumst, fringilla quisque nulla nec blandit lectus aenean lobortis ultrices, fames dolor accumsan ultrices eleifend convallis himenaeos etiam.</p>
-                                            <h2>Room Amenities</h2>
+                                            <p>Oracle Arena (Golden State Warriors)
+                                            7000 Coliseum Way, Oakland, CA 94621</p>
+                                            <h2>Selected Seats</h2>
                                             <ul>
-                                                <li>Restaurants</li>
-                                                <li>Complimenttary Wi-Fi</li>
-                                                <li>Internet</li>
-                                                <li>Parking</li>
+                                                <li>Section: 217</li>
                                             </ul>
 
                                             <ul>
-                                                <li>Restaurants</li>
-                                                <li>Complimenttary Wi-Fi</li>
-                                                <li>Internet</li>
-                                                <li>Parking</li>
+                                                <li>Row: 17</li>
                                             </ul>
 
                                             <ul>
-                                                <li>Restaurants</li>
-                                                <li>Complimenttary Wi-Fi</li>
-                                                <li>Internet</li>
-                                                <li>Parking</li>
-                                            </ul>
-
-                                            <ul>
-                                                <li>Restaurants</li>
-                                                <li>Complimenttary Wi-Fi</li>
-                                                <li>Internet</li>
-                                                <li>Parking</li>
+                                                <li>Seat: 6</li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div id="tabs-2" class="tab clearfix" >
-                                        <div class="detail">
-                                            <h2>Room Facilities</h2>
-                                            <ul>
-                                                <li>Restaurants</li>
-                                                <li>Complimenttary Wi-Fi</li>
-                                                <li>Internet</li>
-                                                <li>Parking</li>
-                                            </ul>
 
-                                            <ul>
-                                                <li>Restaurants</li>
-                                                <li>Complimenttary Wi-Fi</li>
-                                                <li>Internet</li>
-                                                <li>Parking</li>
-                                            </ul>
-
-                                            <ul>
-                                                <li>Restaurants</li>
-                                                <li>Complimenttary Wi-Fi</li>
-                                                <li>Internet</li>
-                                                <li>Parking</li>
-                                            </ul>
-
-                                            <ul>
-                                                <li>Restaurants</li>
-                                                <li>Complimenttary Wi-Fi</li>
-                                                <li>Internet</li>
-                                                <li>Parking</li>
-                                            </ul>
-
-                                            <p>Feugiat consequat augue pulvinar fusce quis dui diam leo dictumst, fringilla quisque nulla nec blandit lectus aenean lobortis ultrices, fames dolor accumsan ultrices eleifend convallis himenaeos etiam.</p>
-                                        </div>
-                                    </div>
                                     <div id="tabs-3" class="tab clearfix" >
                                         <div class="detail">
-                                            <div class="map">
-                                                <iframe width="100%" height="360" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Envato+Pty+Ltd,+13%2F2+Elizabeth+Street,+Melbourne+VIC,+Australia&amp;aq=0&amp;oq=envato&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=Envato+Pty+Ltd,+13%2F2+Elizabeth+Street,&amp;hnear=Melbourne+Victoria,+Australia&amp;t=p&amp;ll=-37.817209,144.961681&amp;spn=0.010849,0.04107&amp;z=15&amp;output=embed"></iframe>
-                                            </div>
-
-                                            <h2>Hotel Location</h2>
-                                            <p>Feugiat consequat augue pulvinar fusce quis dui diam leo dictumst, fringilla quisque nulla nec blandit lectus aenean lobortis ultrices, fames dolor accumsan ultrices eleifend convallis himenaeos etiam.</p>
+                                            <iframe
+                                            width="600"
+                                            height="450"
+                                            frameborder="0" style="border:0"
+                                            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBIfs7cmMvfb5WOb5tlUwX7ElTf6kKrIN0
+                                            &q=SJSU,SanJose+CA" allowfullscreen>
+                                            </iframe>
+                                            <h2>Tikcet Location</h2>
                                         </div>
                                     </div>
                                     <div id="tabs-4" class="tab clearfix" >
@@ -472,7 +418,7 @@
                                                 <div class="span4 our_rating">
                                                     <h2>Your Rating</h2>
                                                     <ul>
-                                                        <li class="first">Clear</li>
+                                                        <li class="first">Price</li>
                                                         <li><a href="#" class="blue_star"></a></li>
                                                         <li><a href="#" class="blue_star"></a></li>
                                                         <li><a href="#" class="blue_star"></a></li>
@@ -481,41 +427,15 @@
                                                     </ul>
 
                                                     <ul>
-                                                        <li class="first">CLocation</li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="star"></a></li>
-                                                        <li><a href="#" class="star"></a></li>
-                                                    </ul>
-
-                                                    <ul>
-                                                        <li class="first">Staff</li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                    </ul>
-
-                                                    <ul>
-                                                        <li class="first">Service</li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                        <li><a href="#" class="blue_star"></a></li>
-                                                    </ul>
-
-                                                    <ul class="last">
-                                                        <li class="first">Comfort</li>
+                                                        <li class="first">Location</li>
                                                         <li><a href="#" class="blue_star"></a></li>
                                                         <li><a href="#" class="blue_star"></a></li>
                                                         <li><a href="#" class="blue_star"></a></li>
                                                         <li><a href="#" class="blue_star"></a></li>
                                                         <li><a href="#" class="star"></a></li>
                                                     </ul>
-                                                    <p><span>4.5/5</span> Rating based on 5 verified Reviews</p>
+
+                                                    <p><span>4/5</span> Rating based on 5 verified Reviews</p>
                                                 </div>
 
 
@@ -597,38 +517,38 @@
                     	<div class="row">
                         	
                             <div class="span3 f-widget copy-right">
-                            	<a href="#" class="f-logo"><img src="images/footer-logo.png" alt="Logo"></a>
-                            	<p>© 2013 <a href="#">N-Travel</a>. All rights reserved</p>
-                            	<p>Designed by Kavin</p>
+                            	<a href="#" class="f-logo"><img src="images/logo.png" alt="Logo" height="72" width="72"></a>
+                                <p>© 2017 <a href="#">Ticket Exchange Inc.</a>. All rights reserved</p>
+                                <p>Designed by Chris</p>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Company Infomation</h4>
                                 <ul>
                                 	<li><a href="#">About US</a></li>
-                                	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
-                                	<li><a href="#">Payment Option</a></li>
-                                	<li class="last"><a href="#">Infomation</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Booking Tips</a></li>
+                                    <li><a href="#">Payment Option</a></li>
+                                    <li class="last"><a href="#">Our Network</a></li>
                                 </ul>
                             </div>
                             <div class="span3 f-widget">
                             	<h4>Customer Care</h4>
                                 <ul>
-                                	<li><a href="#">About US</a></li>
-                                	<li><a href="#">Team</a></li>
-                                	<li><a href="#">Booking Tips</a></li>
-                                	<li><a href="#">Payment Option</a></li>
-                                	<li class="last"><a href="#">Infomation</a></li>
+                                	<li><a href="#">We're Here to Help</a></li>
+                                    <li><a href="#">Your Account</a></li>
+                                    <li><a href="#">Transfer or Sell Tickets</a></li>
+                                    <li><a href="#">Print Tickets</a></li>
+                                    <li class="last"><a href="#">FAQs</a></li>
                                 </ul>
                             </div>
                             <div class="span3 f-widget">
                             	<div class="cc">
-                            		<h4>Customer Support</h4>
-                            		<h2>1-669-559-4378</h2>
-                            		<span class="pull-right">Support 24/24</span>
-                            	</div>
-                            	<div class="f-widget n-letter">
-                                	<h4>Newsletter</h4>
+                                    <h4>Customer Support</h4>
+                                    <h2>1-888-559-4378</h2>
+                                    <span class="pull-right">Support 24/24</span>
+                                </div>
+                                <div class="f-widget n-letter">
+                                    <h4>Newsletter</h4>
 
                                     <form>
                                         <input type="text" name="newlatter" value="Enter your email...">
@@ -651,12 +571,11 @@
                             	<footer>
                                 	<div class="footer-nav">
                                     	<ul>
-                                    		<li><a href="#">About US</a></li>
-                                    		<li><a href="#">News</a></li>
-                                    		<li><a href="#">Serbice</a></li>
-                                    		<li><a href="#">Recruiment </a></li>
-                                    		<li><a href="#">Media</a></li>
-                                    		<li>More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></li>
+                                    		<li><a href="#">About US </a></li>
+                                            <li><a href="#">Insider </a></li>
+                                            <li><a href="#">Privacy Policy </a></li>
+                                            <li><a href="#">Career </a></li>
+                                            <li><a href="#">Media</a></li>
                                     	</ul>
                                     </div>
                                     <a href="javascript:void(0)" onClick="goToByScroll('top')" class="gotop"></a>
